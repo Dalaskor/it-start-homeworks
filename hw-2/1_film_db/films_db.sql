@@ -1,4 +1,5 @@
 --CREATE DATABASE films;
+-- \c films
 
 DROP TABLE IF EXISTS genres CASCADE;
 CREATE TABLE genres(
